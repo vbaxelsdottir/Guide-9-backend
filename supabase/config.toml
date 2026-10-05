@@ -1,0 +1,4 @@
+project_id = "christmas-calendar-backend"
+[functions.calendar-api]
+# Guest requests have no owner JWT. The handler explicitly verifies credentials.
+verify_jwt = false

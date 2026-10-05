@@ -1,0 +1,28 @@
+export type Movie = { day: number; title: string };
+
+export const movies: Movie[] = [
+  { day: 1, title: 'Elf' },
+  { day: 2, title: 'Home Alone' },
+  { day: 3, title: 'The Polar Express' },
+  { day: 4, title: 'The Santa Clause' },
+  { day: 5, title: 'The Muppet Christmas Carol' },
+  { day: 6, title: 'Klaus' },
+  { day: 7, title: 'Arthur Christmas' },
+  { day: 8, title: 'How the Grinch Stole Christmas' },
+  { day: 9, title: 'The Holiday' },
+  { day: 10, title: 'Home Alone 2: Lost in New York' },
+  { day: 11, title: 'Miracle on 34th Street' },
+  { day: 12, title: 'Jingle All the Way' },
+  { day: 13, title: 'The Christmas Chronicles' },
+  { day: 14, title: 'Scrooged' },
+  { day: 15, title: 'White Christmas' },
+  { day: 16, title: 'A Christmas Story' },
+  { day: 17, title: 'The Nightmare Before Christmas' },
+  { day: 18, title: 'National Lampoon’s Christmas Vacation' },
+  { day: 19, title: 'Love Actually' },
+  { day: 20, title: 'A Christmas Carol' },
+  { day: 21, title: 'The Santa Clause 2' },
+  { day: 22, title: 'The Christmas Chronicles 2' },
+  { day: 23, title: 'The Grinch' },
+  { day: 24, title: 'It’s a Wonderful Life' },
+];

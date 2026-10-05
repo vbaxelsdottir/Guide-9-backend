@@ -1,0 +1,53 @@
+{
+  "scope": "Local integration-test server logs; same request IDs as the capture",
+  "logs": [
+    {
+      "requestId": "c1e7eae9-0ee8-44e3-83db-65e1e2717e55",
+      "method": "POST",
+      "action": "create",
+      "status": 201
+    },
+    {
+      "requestId": "a452c348-9904-4c40-8997-0479cfee425b",
+      "method": "GET",
+      "action": "read",
+      "status": 200
+    },
+    {
+      "requestId": "c9bba87b-4903-45a7-9d89-74e74d8ce9e5",
+      "method": "PATCH",
+      "action": "update",
+      "status": 200
+    },
+    {
+      "requestId": "d40a7060-1093-4223-b7c4-da61206b8d9a",
+      "method": "GET",
+      "action": "read",
+      "status": 200
+    },
+    {
+      "requestId": "6fa958a8-8a3c-407e-8cad-03199f5f74b9",
+      "method": "DELETE",
+      "action": "delete",
+      "status": 200
+    },
+    {
+      "requestId": "0090cbf6-0979-4c71-8d16-f2e3bc10e32a",
+      "method": "GET",
+      "action": "read",
+      "status": 404
+    },
+    {
+      "requestId": "95361020-9e4c-4656-b0d8-6fa9dd84ddd2",
+      "method": "POST",
+      "action": "create",
+      "status": 401
+    },
+    {
+      "requestId": "9de62b4f-5687-4730-9cd5-b2381d262fb5",
+      "method": "GET",
+      "action": "list",
+      "status": 401
+    }
+  ]
+}

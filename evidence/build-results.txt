@@ -1,0 +1,13 @@
+
+> christmas-calendar-backend@1.0.0 build
+> vue-tsc --noEmit && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 64 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.64 kB │ gzip:  0.40 kB
+dist/assets/index-Yql3p2Wv.css    8.63 kB │ gzip:  2.66 kB
+dist/assets/index-Da0MdXnw.js   312.06 kB │ gzip: 92.41 kB
+✓ built in 430ms

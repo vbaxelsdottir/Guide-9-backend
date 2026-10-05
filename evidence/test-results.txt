@@ -1,0 +1,32 @@
+
+> christmas-calendar-backend@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ CRUD: create, read across independent requests, update and cascade delete (874.101542ms)
+✔ owner identity required for create and list (5.379041ms)
+✔ unrelated account and missing or guessed link cannot read (9.378458ms)
+✔ forged or expired session is rejected before owner actions (2.304125ms)
+✔ early lock blocks guest writes but allows owner writes (8.274542ms)
+✔ guest cannot lock, rotate or delete even with a valid link (7.792667ms)
+✔ December 1 boundary blocks owners and guests and cannot be unlocked (8.755042ms)
+✔ old calendar stays closed the following January (6.471208ms)
+✔ future titles withheld from locked guests and December viewers (6.790333ms)
+✔ rotating guest link revokes old link without exposing owner ID or hashes (6.346542ms)
+✔ invalid movie lists rejected and transaction preserves previous data (11.482375ms)
+✔ invalid creation rolls back its calendar row (4.0475ms)
+✔ rejects owner spoofing and unexpected fields (2.939208ms)
+✔ simultaneous saves with one version have exactly one winner (6.561208ms)
+✔ handles malformed JSON, huge body, wrong content type and unknown routes (4.420459ms)
+✔ persistent quota returns 429 and Retry-After (3.447125ms)
+✔ CORS permits configured website and rejects unexpected origin (2.242333ms)
+✔ safe error response and metadata-only correlated logs (4.681ms)
+✔ anon and authenticated cannot bypass API through tables or privileged functions (2.438334ms)
+✔ saved PostgreSQL data survives closing and reopening the database (633.816791ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1682.202958

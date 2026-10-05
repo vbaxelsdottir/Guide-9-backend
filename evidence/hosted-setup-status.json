@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-05",
+  "authSettings": 200,
+  "allowedOriginPreflight": 204,
+  "calendarListBeforeFix": 404,
+  "cause": "Hosted gateway strips /functions/v1; handler only accepted full external path.",
+  "fix": "Normalize external prefix before route matching.",
+  "localTestsPassed": 21,
+  "hostedFixDeployed": false
+}

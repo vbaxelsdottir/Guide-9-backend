@@ -1,0 +1,53 @@
+{
+  "scope": "Local integration-test server logs; same request IDs as the capture",
+  "logs": [
+    {
+      "requestId": "0064301e-44e0-431b-a7d1-1b035fbe31dc",
+      "method": "POST",
+      "action": "create",
+      "status": 201
+    },
+    {
+      "requestId": "7864f3aa-3534-491c-953b-a2da5d2bc47e",
+      "method": "GET",
+      "action": "read",
+      "status": 200
+    },
+    {
+      "requestId": "86087f88-f86e-403c-a0ea-04f48ed94a5f",
+      "method": "PATCH",
+      "action": "update",
+      "status": 200
+    },
+    {
+      "requestId": "e2933315-8d5c-40cf-aed8-c9456df3ec0b",
+      "method": "GET",
+      "action": "read",
+      "status": 200
+    },
+    {
+      "requestId": "7ffc1e6a-2563-48a0-bdaa-9017ec20fff9",
+      "method": "DELETE",
+      "action": "delete",
+      "status": 200
+    },
+    {
+      "requestId": "4cebfb6e-0c91-433f-8c17-b1d04d44bd70",
+      "method": "GET",
+      "action": "read",
+      "status": 404
+    },
+    {
+      "requestId": "177acd43-7f15-4f3c-a1bd-736c0b9516e1",
+      "method": "POST",
+      "action": "create",
+      "status": 401
+    },
+    {
+      "requestId": "e94cf9ef-0bc0-4c07-a7fa-68ef071a59e1",
+      "method": "GET",
+      "action": "list",
+      "status": 401
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "method": "OPTIONS",
+    "status": 204,
+    "origin": "http://127.0.0.1:4392",
+    "body": ""
+  },
+  {
+    "method": "GET",
+    "status": 401,
+    "origin": "http://127.0.0.1:4392",
+    "body": "{\"error\":\"Sign in to see your calendars.\",\"requestId\":\"8f2a6984-e36b-490c-af02-be9a1f0f4240\"}"
+  }
+]

@@ -1,0 +1,859 @@
+{
+  "capturedAt": "2026-10-05T18:48:16.201Z",
+  "scope": "Actual local HTTP calls through production handler and SQL on PGlite. Identity verification is a test stub, not real Supabase Auth.",
+  "captures": [
+    {
+      "method": "POST",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars",
+      "requestHeaders": {
+        "Authorization": "[redacted]",
+        "Content-Type": "application/json"
+      },
+      "requestBody": {
+        "name": "Test calendar",
+        "year": 2026,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Movie 1"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ]
+      },
+      "responseStatus": 201,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "0064301e-44e0-431b-a7d1-1b035fbe31dc"
+      },
+      "responseBody": {
+        "id": "8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+        "name": "Test calendar",
+        "year": 2026,
+        "closed": false,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Movie 1"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ],
+        "canEdit": true,
+        "isOwner": true,
+        "version": 1,
+        "serverNow": "2026-11-30T23:59:59+00:00",
+        "sharingLocked": false,
+        "shareToken": "[redacted]"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars/8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+      "requestHeaders": {
+        "X-Calendar-Token": "[redacted]"
+      },
+      "responseStatus": 200,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "7864f3aa-3534-491c-953b-a2da5d2bc47e"
+      },
+      "responseBody": {
+        "id": "8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+        "name": "Test calendar",
+        "year": 2026,
+        "closed": false,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Movie 1"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ],
+        "canEdit": true,
+        "isOwner": false,
+        "version": 1,
+        "serverNow": "2026-11-30T23:59:59+00:00",
+        "sharingLocked": false
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars/8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+      "requestHeaders": {
+        "X-Calendar-Token": "[redacted]",
+        "Content-Type": "application/json"
+      },
+      "requestBody": {
+        "version": 1,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Klaus"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ]
+      },
+      "responseStatus": 200,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "86087f88-f86e-403c-a0ea-04f48ed94a5f"
+      },
+      "responseBody": {
+        "id": "8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+        "name": "Test calendar",
+        "year": 2026,
+        "closed": false,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Klaus"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ],
+        "canEdit": true,
+        "isOwner": false,
+        "version": 2,
+        "serverNow": "2026-11-30T23:59:59+00:00",
+        "sharingLocked": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars/8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+      "requestHeaders": {
+        "Authorization": "[redacted]"
+      },
+      "responseStatus": 200,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "e2933315-8d5c-40cf-aed8-c9456df3ec0b"
+      },
+      "responseBody": {
+        "id": "8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+        "name": "Test calendar",
+        "year": 2026,
+        "closed": false,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Klaus"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ],
+        "canEdit": true,
+        "isOwner": true,
+        "version": 2,
+        "serverNow": "2026-11-30T23:59:59+00:00",
+        "sharingLocked": false
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars/8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+      "requestHeaders": {
+        "Authorization": "[redacted]"
+      },
+      "responseStatus": 200,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "7ffc1e6a-2563-48a0-bdaa-9017ec20fff9"
+      },
+      "responseBody": {
+        "deleted": true
+      }
+    },
+    {
+      "method": "GET",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars/8403c725-0c86-4cd1-b9d6-79f0b31abdb5",
+      "requestHeaders": {
+        "Authorization": "[redacted]"
+      },
+      "responseStatus": 404,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "4cebfb6e-0c91-433f-8c17-b1d04d44bd70"
+      },
+      "responseBody": {
+        "error": "Calendar not found or link no longer valid.",
+        "requestId": "4cebfb6e-0c91-433f-8c17-b1d04d44bd70"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars",
+      "requestHeaders": {
+        "Content-Type": "application/json"
+      },
+      "requestBody": {
+        "name": "X",
+        "year": 2026,
+        "movies": [
+          {
+            "day": 1,
+            "title": "Movie 1"
+          },
+          {
+            "day": 2,
+            "title": "Movie 2"
+          },
+          {
+            "day": 3,
+            "title": "Movie 3"
+          },
+          {
+            "day": 4,
+            "title": "Movie 4"
+          },
+          {
+            "day": 5,
+            "title": "Movie 5"
+          },
+          {
+            "day": 6,
+            "title": "Movie 6"
+          },
+          {
+            "day": 7,
+            "title": "Movie 7"
+          },
+          {
+            "day": 8,
+            "title": "Movie 8"
+          },
+          {
+            "day": 9,
+            "title": "Movie 9"
+          },
+          {
+            "day": 10,
+            "title": "Movie 10"
+          },
+          {
+            "day": 11,
+            "title": "Movie 11"
+          },
+          {
+            "day": 12,
+            "title": "Movie 12"
+          },
+          {
+            "day": 13,
+            "title": "Movie 13"
+          },
+          {
+            "day": 14,
+            "title": "Movie 14"
+          },
+          {
+            "day": 15,
+            "title": "Movie 15"
+          },
+          {
+            "day": 16,
+            "title": "Movie 16"
+          },
+          {
+            "day": 17,
+            "title": "Movie 17"
+          },
+          {
+            "day": 18,
+            "title": "Movie 18"
+          },
+          {
+            "day": 19,
+            "title": "Movie 19"
+          },
+          {
+            "day": 20,
+            "title": "Movie 20"
+          },
+          {
+            "day": 21,
+            "title": "Movie 21"
+          },
+          {
+            "day": 22,
+            "title": "Movie 22"
+          },
+          {
+            "day": 23,
+            "title": "Movie 23"
+          },
+          {
+            "day": 24,
+            "title": "Movie 24"
+          }
+        ]
+      },
+      "responseStatus": 401,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "177acd43-7f15-4f3c-a1bd-736c0b9516e1"
+      },
+      "responseBody": {
+        "error": "Verify your email to save a calendar.",
+        "requestId": "177acd43-7f15-4f3c-a1bd-736c0b9516e1"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "http://127.0.0.1:56697/functions/v1/calendar-api/calendars",
+      "requestHeaders": {},
+      "responseStatus": 401,
+      "responseHeaders": {
+        "content-type": "application/json",
+        "x-request-id": "e94cf9ef-0bc0-4c07-a7fa-68ef071a59e1"
+      },
+      "responseBody": {
+        "error": "Sign in to see your calendars.",
+        "requestId": "e94cf9ef-0bc0-4c07-a7fa-68ef071a59e1"
+      }
+    }
+  ]
+}
